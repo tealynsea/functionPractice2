@@ -51,21 +51,27 @@ console.log(totalLetters(['what', 'happened', 'to', 'my', 'function']));*/
 console.log(keyValue('Denver'));*/
 
 
-function negativeIndex(index) {
+/*function negativeIndex(array, index) {
 
-	  
+	  var arr = array.length + index;
+	  	return array[arr]
+}
 
-
-	}
+console.log('negativeIndex', negativeIndex(['a', 'b', 'c', 'd', 'e']));
 		
 
 
 
 console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2));
+console.log(negativeIndex(['Jerry', 'Sarah', 'Sally'], -1));*/
+
+var str = "foo bar baz";
+
+str.replace(/ba/gi, '');
+
+console.log(str);
 
 
-
- 
 
 
 
